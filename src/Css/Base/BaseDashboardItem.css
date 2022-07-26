@@ -1,0 +1,48 @@
+.nm-dashboard-item-wrapper a{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    margin-bottom: 12px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+
+.nm-dashboard-item-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+.nm-dashboard-item-text{
+    white-space: nowrap;
+    flex: 1;
+    overflow: hidden;
+    color:#000;
+    font-weight: 700;
+}
+
+.nm-dashboard-item-wrapper:last-child{
+    margin-bottom: 0;
+}
+
+.nm-dashboard-item-tooltip {
+    white-space: nowrap;
+    position: absolute;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 0px 8px;
+    top: 70%;
+    left: 0;
+    transform: translateX(-80%);
+    display: none;
+    color: #000;
+}
+
+.nm-dashboard-item-wrapper:hover .nm-dashboard-item-tooltip {
+    display: block;
+}

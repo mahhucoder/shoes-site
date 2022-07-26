@@ -1,0 +1,145 @@
+.nm-dashboard-container{
+    height: calc(100vh - 128px);
+    padding: 0px calc(50% - 600px);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.nm-dashboard-title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 32px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color:#F28B09;
+    text-decoration: underline;
+}
+
+.nm-dashboard-content{
+    display: flex;
+    overflow: unset;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.nm-dashboard-analytics{
+    flex: 1;
+    background-color: #fff;
+    margin-right: 40px;
+    min-width: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.nm-dashboard-chart{
+    flex: 1;
+    background-color: teal;
+    width: 100%;
+}
+
+.nm-dashboard-chart-title{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 12px 0px;
+}
+
+.nm-dashboard-control-chart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nm-dashboard-menu-expand{
+    width: 280px;
+    transition: all .5s;
+}
+
+.nm-dashboard-menu-miniature{
+    width: 48px;
+    transition: all .5s;
+}
+
+.nm-toggle-dashboard-menu {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    position: relative;
+}
+
+.nm-toggle-dashboard-menu > div:last-child {
+    position: absolute;
+    white-space: nowrap;
+    border:1px solid #bbb;
+    padding: 0px 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    top: 80%;
+    left: -100%;
+    line-height: 24px;
+    height: 24px;
+    display: none;
+}
+
+.nm-toggle-dashboard-menu svg {
+    transition: all .5s;
+}
+
+.nm-toggle-dashboard-menu:hover > div:last-child {
+    display: block;
+}
+
+.nm-dashboard-menu-miniature .nm-toggle-dashboard-menu > svg {
+    transform: rotateY(180deg);
+    transition: all .5s;
+}
+
+.nm-dashboard-control-date-picker {
+    outline: none;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+}
+
+.nm-dashboard-control-date-picker:focus {
+    border-color: #F28B09;
+}
+
+.nm-dashboard-date-input-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nm-dashboard-date-input-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nm-dashboard-date-input-start > div:first-child, .nm-dashboard-date-input-end > div:first-child {
+    white-space: nowrap;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nm-dashboard {
+    height: 100%;
+}

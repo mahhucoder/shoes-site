@@ -1,0 +1,21 @@
+body, html {
+    /* overflow: hidden; */
+}
+
+.nm-admin-side-container {
+    width:100%;
+    height:100vh;
+    overflow:unset;
+}
+
+.nm-text-left {
+    text-align: left;
+}
+
+.nm-text-right {
+    text-align: right;
+}
+
+.nm-text-center {
+    text-align: center;
+}

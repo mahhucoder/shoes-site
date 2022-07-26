@@ -1,0 +1,53 @@
+.nm-header-admin-wrapper {
+}
+
+.nm-header-top{
+    padding: 0px calc(50% - 600px);
+    height: 80px;
+    background-color: #000;
+    background-image: url(../../assets/images/Logo.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nm-header-bottom{
+    padding: 0px calc(50% - 600px);
+    height: 48px;
+    background-color:#D9D9D9;
+    line-height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nm-header-admin-name{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nm-header-btn-logout{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nm-header-btn-logout-tooltip{
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    white-space: nowrap;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 2px 8px;
+    box-sizing: border-box;
+    display: none;
+    align-items: center;
+    top: 100%;
+    right: 50%;
+}
+
+.nm-header-btn-logout:hover .nm-header-btn-logout-tooltip {
+    display: flex;
+}

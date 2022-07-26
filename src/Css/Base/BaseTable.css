@@ -1,0 +1,80 @@
+.nm-table-wrapper{
+    overflow: auto;
+    height: 100%;
+    border-collapse: separate;
+    border: none;
+    width: 100%;
+    display: block;
+}
+
+.nm-table-wrapper::-webkit-scrollbar {
+    width:8px;
+    height:8px;
+    margin-top:40px;
+} 
+
+.nm-table-wrapper::-webkit-scrollbar-thumb {
+    background-color: #dbdbdbda;
+    /* border-radius: 2px; */
+}
+
+.nm-table-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: #8d8d8d;
+}
+
+.nm-table-wrapper::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    margin-top:40px;
+    border-radius: 2px;
+}
+
+.nm-table-wrapper thead th {
+    position: sticky;
+    top:0;
+    background-color: #F28B09;
+    color: #fff;
+}
+
+.nm-table-wrapper tr th, .nm-table-wrapper tr td {
+    border-bottom: 1px solid #fff;
+    border-right: 1px dotted #fff;
+    padding:4px 10px;
+    height: 40px;
+    min-height: 40px;
+    box-sizing: border-box;
+}
+
+.nm-table-wrapper thead th {
+    white-space: nowrap
+}
+
+.nm-table-wrapper tr th:last-child, .nm-table-wrapper tr td:last-child {
+    border-right: none;
+}
+
+.nm-table-wrapper tbody tr {
+    background-color: rgb(232, 232, 232);
+}
+
+.nm-table-wrapper tbody tr:hover {
+    background-color: rgba(242, 139, 9,0.2);
+    transition: all .1s;
+    cursor: pointer;
+}
+
+.nm-image-td{
+    width: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+}
+
+.nm-table-wrapper tbody tr td:last-child > div {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}

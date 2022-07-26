@@ -1,0 +1,49 @@
+.nm-shoes-page-container{
+    height: calc(100vh - 128px);
+    padding: 0px calc(50% - 600px);
+    overflow: unset;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.nm-shoes-page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 8px;
+}
+
+.nm-shoes-page-title{
+    font-size: 24px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color:#F28B09;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+
+.nm-shoes-content{
+    box-sizing: border-box;
+    max-height: calc(100vh - 192px);
+    box-sizing: border-box;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+.nm-shoes-grid{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 212px);
+}
+
+.nm-shoes-table{
+    flex: 1;
+}
+
+.nm-shoes-page-container >div:last-child {
+    margin-top: 84px;
+}

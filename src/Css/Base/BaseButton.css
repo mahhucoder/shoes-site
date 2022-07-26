@@ -1,0 +1,19 @@
+.nm-button {
+    height: 34px;
+    line-height: 34px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.nm-button-contain {
+    background-color: #F28B09;
+    color: #fff;
+}
+
+.nm-button-outline {
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #333;
+}
